@@ -24,3 +24,11 @@ for (let index = 0; index < integerArr.length; index++) {
 }
 console.log(`3.1_Even numbers: ${countEvent}`);
 console.log(`3.1_Odd numbers: ${countOdd}`);
+
+
+
+
+
+
+
+
