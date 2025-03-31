@@ -15,12 +15,14 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var Animal_1 = require("./Animal");
-var Horse = /** @class */ (function (_super) {
-    __extends(Horse, _super);
-    function Horse(name) {
-        return _super.call(this, name, 75) || this;
+var Employee_1 = require("./Employee");
+var FulltimeEmp = /** @class */ (function (_super) {
+    __extends(FulltimeEmp, _super);
+    function FulltimeEmp(name) {
+        var _this = _super.call(this, name) || this;
+        _this.salary = Math.floor(Math.random() * 50000);
+        return _this;
     }
-    return Horse;
-}(Animal_1.default));
-exports.default = Horse;
+    return FulltimeEmp;
+}(Employee_1.default));
+exports.default = FulltimeEmp;
