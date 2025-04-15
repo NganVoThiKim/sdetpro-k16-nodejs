@@ -11,5 +11,10 @@
   "description": "",
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "@types/readline-sync": "^1.4.8",
+    "undici-types": "^7.8.0"
   }
 }
